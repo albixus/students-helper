@@ -1,0 +1,157 @@
+/*font-family: 'Roboto Slab', serif;
+
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+    background: url("background.png");
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    position: center;
+}
+
+h1{
+    color: white;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 18px;
+    color: #bb3030;
+}
+
+h3{
+    color: #232323;
+    font-size: 20px;
+}
+
+.formbox label{
+    display: block;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+    width: 300px;
+    height: 20px;
+    border-radius: 7px;
+    border: 2px solid #898989;
+    box-shadow: #898989;
+    font-size: 15px;
+    background-color: #f0fff0;
+}
+
+input[type = submit]{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background-color: #c82537;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+input[type = submit]:hover {
+    cursor: pointer;
+    background-color: #f3263a;
+}
+
+input[type=text],
+input[type=password],
+input[type=email]:hover{
+    cursor: text;
+}
+
+.g-recaptcha{
+    margin: 15px auto;
+    width: auto !important;
+    height: auto !important;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
+}
+
+.formbox{
+    padding: 2%;
+    background-color: #f8fef8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    max-width: 27%;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 2px 59px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 59px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 59px 10px rgba(0,0,0,0.75);
+}
+
+#form-password{
+    margin-bottom: 20px;
+}
+
+.form-submit{
+    display: block;
+    margin-top: 40px;
+}
+
+
+.header {
+    background-color: #bb3030;
+    opacity: 0.9;
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+    border-bottom: brown 8px solid;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+}
+
+.footer{
+    background-color: #bb3030;
+    opacity: 0.8;
+    text-align: center;
+    padding: 0.2%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    font-size: 12px;
+}
+#register-footer{
+    margin-top:70px;
+}
+.about{
+    margin-top:7%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 120%;
+    text-align: center;
+}
